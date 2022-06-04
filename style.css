@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*font-family: 'Dosis', sans-serif;*/
+	font-family: 'Josefin Sans', sans-serif;
+}
+body {
+	background: #F8F9F9;
+}
+.body {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(20em,1fr));
+	grid-gap: 1em;
+	background: #fff;
+	padding: 1em;
+}
+.hero {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	align-self: center;
+	justify-self: center;
+	margin: 2em 1em;
+	text-align: center;
+}
+h2 {
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+}
+h3 {
+	margin: .5em;
+}
+h4 {
+	font-size: 1.2em;
+	line-height : 1.3em;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 1em;
+	padding: .5em;
+	color: #fff;
+	border-radius: .5em;
+	box-shadow: 5px 5px 10px 5px rgb(0 0 0 / 10%);
+}
+.mate {
+	background: #2F8F9D;
+}
+.mate div {
+	background: #3BACB6;
+	border-radius: .5em;
+	padding: .5em;
+}
+.proy {
+	background: #303fcf;
+}
+.proy div {
+	background: #646FD4;
+	border-radius: .5em;
+	padding: .5em;
+}
+
+.form {
+	background: #34BE82;
+}
+.form div {
+	background: #2FDD92;
+	border-radius: .5em;
+	padding: .5em;
+}
+.algo {
+	background: #FD5D5D;
+}
+.algo div {
+	background: #FF8080;
+	border-radius: .5em;
+	padding: .5em;
+}
