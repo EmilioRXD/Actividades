@@ -80,6 +80,14 @@ h4 {
 	border-radius: .5em;
 	padding: .5em;
 }
+.arqui {
+	background: #76448A;
+}
+.arqui div {
+	background: #884EA0;
+	border-radius: .5em;
+	padding: .5em;
+}
 .entregado {
 	background: #808B96 !important;
 }
